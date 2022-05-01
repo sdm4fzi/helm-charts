@@ -1,0 +1,8 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ include ".Values.fullname" . }}
+  labels:
+    {{- include ".Values.labels" . | nindent 4 }}
+spec:
+  replicas: 1

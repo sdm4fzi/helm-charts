@@ -1,0 +1,14 @@
+affinity: {}
+annotations: {}
+capabilities: {}
+fullnameOverride: ""
+image:
+  name: hello-world
+  pullPolicy: IfNotPresent
+  repository: ghcr.io/smd4fzi/hello-world
+  tag: "latest"
+nameOverride: ""
+nodeSelector: {}
+resources: {}
+securityContext: {}
+tolerations: []
