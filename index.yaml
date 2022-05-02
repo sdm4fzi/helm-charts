@@ -3,12 +3,12 @@ entries:
   hello-world:
   - apiVersion: v2
     appVersion: latest
-    created: "2022-05-01T21:53:32.630996+02:00"
+    created: "2022-05-02T11:37:01.521194+02:00"
     description: A Helm chart to deploy the hello world sample
-    digest: 862301174ba7cbd429ee50eb4de623a6deebb5016ddaf46cc2048d631510f71e
+    digest: 4e894a6ba11a20cb9ceaf2aee1b2a39f15f1409d898e41497609de66d82e534c
     name: hello-world
     type: application
     urls:
     - https://sdm4fzi.github.io/helm-charts/hello-world-0.0.1.tgz
     version: 0.0.1
-generated: "2022-05-01T21:53:32.630706+02:00"
+generated: "2022-05-02T11:37:01.520552+02:00"

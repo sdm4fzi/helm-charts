@@ -4,11 +4,14 @@ capabilities: {}
 fullnameOverride: ""
 image:
   name: hello-world
-  pullPolicy: IfNotPresent
-  repository: ghcr.io/smd4fzi/hello-world
-  tag: "latest"
+  pullPolicy: Always
+  repository: ghcr.io/sdm4fzi/hello-world
+  tag: latest
 nameOverride: ""
 nodeSelector: {}
 resources: {}
 securityContext: {}
 tolerations: []
+modbus:
+  port: /dev/ttyAMA2
+  baudrate: 19200
