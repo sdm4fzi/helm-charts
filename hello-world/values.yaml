@@ -8,7 +8,8 @@ image:
   repository: ghcr.io/sdm4fzi/hello-world
   tag: latest
 nameOverride: ""
-nodeSelector: {}
+nodeSelector:
+  23technologies.cloud/kind: plc
 resources: {}
 securityContext: {}
 tolerations: []
