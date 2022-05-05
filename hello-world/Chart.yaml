@@ -3,5 +3,5 @@ name: hello-world
 description: A Helm chart to deploy the hello world sample
 
 type: application
-version: 0.0.2
+version: 0.0.3
 appVersion: "latest"
