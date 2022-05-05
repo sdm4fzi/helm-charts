@@ -6,7 +6,7 @@ image:
   name: hello-world
   pullPolicy: Always
   repository: ghcr.io/sdm4fzi/hello-world
-  tag: "20220505.1847"
+  tag: ""
 nameOverride: ""
 nodeSelector:
   23technologies.cloud/kind: plc
