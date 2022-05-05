@@ -11,7 +11,8 @@ nameOverride: ""
 nodeSelector:
   23technologies.cloud/kind: plc
 resources: {}
-securityContext: {}
+securityContext:
+  privileged: True
 tolerations: []
 modbus:
   port: /dev/ttyAMA2
